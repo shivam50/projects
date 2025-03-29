@@ -1,0 +1,75 @@
+
+
+.Headr {
+    display: grid;
+    grid-template-columns: 2fr 4fr 3fr;
+    gap: 10px;
+}
+
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1 px solid black;
+}
+
+.titl {
+    text-align: center;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Cont2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    border: 1px solid black;
+}
+
+.Cont2 > div {
+    border: 1px solid black; /* Border for each grid item */
+    padding: 10px;
+    text-align: center;
+}
+
+.Skills{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    gap: 10px;
+    width: 200px;
+}
+
+.Education{
+    display: grid;
+    grid-template-rows: 95px auto;
+    gap: 10px;
+    width: 200px;
+}
+
+.Work-exp{
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 10px;
+}
+
+.item{
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+}
+
+.Other {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    border: 1 px solid black;
+    text-align: left;
+    width: 100%;
+}
+
+
+
+.Other > div {
+    border: 1px solid black; /* Ensures visible borders */
+    padding: 10px;
+}

@@ -53,3 +53,25 @@
     border: 1px solid black;
 
 }
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+    
+    .Header1, .Header2 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Row2, .Row3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Projects, .Work-exp, .Education, .Certs {
+        width: 100%;
+        text-align: center;
+    }
+}

@@ -16,7 +16,7 @@ if start == "1":
     ''')
 
     print("\nYour job is to save the hangman from hanging, \n Every wrong answer will bring the hangman close to hanging, \n When all the lives are finished, hangman will die and you will lose")
-    wordlist = ["Hella", "Camel", "Ramen" ]
+    wordlist = ["Hello", "camel", "Ramen", "Samurai" ]
     lives = 6
     trials = 0
     game_over = False
